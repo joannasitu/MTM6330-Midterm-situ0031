@@ -8,7 +8,7 @@ body#Portfolio {
   background-color: #F9E8F1; }
 
 body#Inspirations {
-  background-color: beige; }
+  background-color: #F5F5DC; }
 
 body#About {
   background-color: #CDF7F4; }
@@ -113,10 +113,14 @@ nav ul li a {
   text-align: center; }
 
 .square {
-  position: relative;
+  display: inline-block;
   width: 100%;
   text-align: center;
-  top: 275px; }
+  margin: 16em 0 0 0; }
+
+.square img {
+  display: inline-block;
+  margin: 18em 0 0 0; }
 
 .left {
   float: left;
@@ -179,10 +183,137 @@ nav ul li a {
 .right img:hover {
   box-shadow: 5px 5px 5px 5px #75dfd8; }
 
+.articles {
+  display: inline-block;
+  width: 100%; }
+
+.article3 {
+  float: left; }
+
+.article3 img {
+  position: absolute;
+  width: 100%;
+  bottom: 170px; }
+
+.article3 p {
+  position: absolute;
+  font-family: helvetica;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  border: solid transparent;
+  width: 340px;
+  height: 140px;
+  top: 38rem; }
+
+.article4 {
+  display: inline-block;
+  margin: 0 auto; }
+
+.article4 img {
+  position: absolute;
+  width: 100%;
+  bottom: 170px; }
+
+.article4 p {
+  position: absolute;
+  font-family: helvetica;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  border: solid transparent;
+  width: 340px;
+  height: 140px;
+  top: 38rem;
+  right: 465px; }
+
+.article5 {
+  float: right; }
+
+.article5 img {
+  position: absolute;
+  width: 100%;
+  bottom: 170px; }
+
+.article5 p {
+  position: absolute;
+  font-family: helvetica;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  border: solid transparent;
+  width: 340px;
+  height: 140px;
+  top: 38rem;
+  right: 40px; }
+
+.articles {
+  display: inline-block;
+  width: 100%; }
+
+.article6 {
+  float: left; }
+
+.article6 img {
+  position: absolute;
+  width: 90%;
+  bottom: 170px; }
+
+.article6 p {
+  position: absolute;
+  font-family: helvetica;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  border: solid transparent;
+  width: 340px;
+  height: 140px;
+  top: 38rem; }
+
+.article7 {
+  display: inline-block;
+  margin: 0 auto; }
+
+.article7 img {
+  position: absolute;
+  width: 68%;
+  bottom: 170px; }
+
+.article7 p {
+  position: absolute;
+  font-family: helvetica;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  border: solid transparent;
+  width: 340px;
+  height: 140px;
+  top: 38rem;
+  right: 465px; }
+
+.article8 {
+  float: right; }
+
+.article8 img {
+  position: absolute;
+  width: 55%;
+  bottom: 170px; }
+
+.article8 p {
+  position: absolute;
+  font-family: helvetica;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  border: solid transparent;
+  width: 340px;
+  height: 140px;
+  top: 38rem;
+  right: 40px; }
+
 .article1 img {
   position: absolute;
   width: 100%;
-  bottom: 174px; }
+  bottom: 174px;
+  right: -5px; }
 
 .article1 p {
   position: absolute;
@@ -192,21 +323,22 @@ nav ul li a {
   border: solid transparent;
   width: 340px;
   height: 140px;
+  left: 5px;
   top: 630px; }
 
 .image img {
   display: inline-block;
   width: 36%;
   height: 45%;
-  right: 403px;
   bottom: 9px;
+  right: 410px;
   position: absolute; }
 
 .article2 img {
   position: absolute;
-  width: 95%;
+  width: 100%;
   height: 130%;
-  right: 15px;
+  right: -5px;
   bottom: 186px; }
 
 .article2 p {
@@ -218,7 +350,40 @@ nav ul li a {
   width: 340px;
   height: 150px;
   top: 627px;
-  right: 10px; }
+  right: 14px; }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  display: inline-block; }
+  .square {
+    display: inline-block;
+    vertical-align: bottom; }
+  .center img {
+    top: 278px;
+    left: 50px; }
+  .right img {
+    top: 530px;
+    right: 45px; }
+  .right {
+    right: 100px;
+    margin-bottom: 50px; }
+  .navbar,
+  h1,
+  hr {
+    display: none; }
+  .image img {
+    margin: 0 auto;
+    text-align: center;
+    right: 20px;
+    width: 90%;
+    top: 48rem; }
+  .article1 p {
+    left: 18px; }
+  .article2 p {
+    top: 1350px;
+    left: 8px; }
+  .article4 p {
+    left: 0;
+    top: 900px; }
+  .article5 p {
+    float: none;
+    position: absolute;
+    top: 1210px; } }
