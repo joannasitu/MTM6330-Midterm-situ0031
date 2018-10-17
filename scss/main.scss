@@ -1,6 +1,11 @@
+// Main Colours
 $pink: #F9E8F1;
 $beige: #F5F5DC;
 $blue: #CDF7F4;
+
+.nav-menu {
+    display: none;
+}
 
 body {
     background-color: white;
@@ -139,7 +144,6 @@ nav ul li a {
     width: 100%;
     text-align: center;
     margin: 16em 0 0 0;
-    // top:275px;
 }
 
 .square img {
@@ -223,171 +227,163 @@ nav ul li a {
     width: 100%;
 }
 
-// .articles p img {
-//     display: inline-block;
-//     margin: 18em 0 0 0;
-// }
-
 .article3 {
     float: left;
-}
 
-.article3 img {
-    position: absolute;
-    width: 100%;
-    bottom: 170px;
-}
+    img {
+        position: absolute;
+        width: 100%;
+        bottom: 170px;
+    }
 
-.article3 p {
-    position: absolute;
-    font-family: helvetica;
-    margin: 0 auto;
-    padding: 20px 20px 20px 20px;
-    border: solid transparent;
-    width: 340px;
-    height: 140px;
-    top: 38rem;
+    p {
+        position: absolute;
+        font-family: helvetica;
+        margin: 0 auto;
+        padding: 20px 20px 20px 20px;
+        border: solid transparent;
+        width: 340px;
+        height: 140px;
+        top: 38rem;
+    }
 }
 
 .article4 {
     display: inline-block;
     margin: 0 auto;
-}
 
-.article4 img {
-    position: absolute;
-    width: 100%;
-    bottom: 170px;
-}
+    img {
+        position: absolute;
+        width: 100%;
+        bottom: 170px;
+    }
 
-.article4 p {
-    position: absolute;
-    font-family: helvetica;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 20px 20px 20px 20px;
-    border: solid transparent;
-    width: 340px;
-    height: 140px;
-    top: 38rem;
-    right: 465px;
+    p {
+        position: absolute;
+        font-family: helvetica;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 20px 20px 20px 20px;
+        border: solid transparent;
+        width: 340px;
+        height: 140px;
+        top: 38rem;
+        right: 465px;
+    }
 }
 
 .article5 {
     float: right;
-}
 
-.article5 img{
-    position: absolute;
-    width: 100%;
-    bottom: 170px;
-}
+    img {
+        position: absolute;
+        width: 100%;
+        bottom: 170px;
+    }
 
-.article5 p{
-    position: absolute;
-    font-family: helvetica;
-    display: inline-block;
-    margin:0 auto;
-    padding: 20px 20px 20px 20px;
-    border: solid transparent;
-    width: 340px;
-    height: 140px;
-    top: 38rem;
-    right: 40px;
+    p {
+        position: absolute;
+        font-family: helvetica;
+        display: inline-block;
+        margin:0 auto;
+        padding: 20px 20px 20px 20px;
+        border: solid transparent;
+        width: 340px;
+        height: 140px;
+        top: 38rem;
+        right: 40px;
+    }
 }
 
 // Inspirations Page
-.articles {
-    display: inline-block;
-    width: 100%;
-}
-
 .article6 {
     float: left;
-}
 
-.article6 img {
-    position: absolute;
-    width: 90%;
-    bottom: 170px;
-}
+    img {
+        position: absolute;
+        width: 75%;
+        bottom: 170px;
+    }
 
-.article6 p {
-    position: absolute;
-    font-family: helvetica;
-    margin: 0 auto;
-    padding: 20px 20px 20px 20px;
-    border: solid transparent;
-    width: 340px;
-    height: 140px;
-    top: 38rem;
+    p {
+        position: absolute;
+        font-family: helvetica;
+        margin: 0 auto;
+        padding: 20px 20px 20px 20px;
+        border: solid transparent;
+        width: 340px;
+        height: 140px;
+        top: 40rem;
+    }
 }
 
 .article7 {
     display: inline-block;
     margin: 0 auto;
-}
 
-.article7 img {
-    position: absolute;
-    width: 68%;
-    bottom: 170px;
-}
+    img {
+        position: absolute;
+        width: 100%;
+        bottom: 170px;
+    }
 
-.article7 p {
-    position: absolute;
-    font-family: helvetica;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 20px 20px 20px 20px;
-    border: solid transparent;
-    width: 340px;
-    height: 140px;
-    top: 38rem;
-    right: 465px;
+    p {
+        position: absolute;
+        font-family: helvetica;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 20px 20px 20px 20px;
+        border: solid transparent;
+        width: 340px;
+        height: 140px;
+        top: 40rem;
+        left: 425px;
+    }
 }
 
 .article8 {
     float: right;
-}
 
-.article8 img{
-    position: absolute;
-    width: 55%;
-    bottom: 170px;
-}
+    img {
+        position: absolute;
+        width: 75%;
+        bottom: 170px;
+    }
 
-.article8 p{
-    position: absolute;
-    font-family: helvetica;
-    display: inline-block;
-    margin:0 auto;
-    padding: 20px 20px 20px 20px;
-    border: solid transparent;
-    width: 340px;
-    height: 140px;
-    top: 38rem;
-    right: 40px;
+    p {
+        position: absolute;
+        font-family: helvetica;
+        display: inline-block;
+        margin:0 auto;
+        padding: 20px 20px 20px 20px;
+        border: solid transparent;
+        width: 340px;
+        height: 140px;
+        top: 40rem;
+        right: -45px;
+    }
 }
 
 // About Page
-.article1 img {
-    position: absolute;
-    width: 100%;
-    bottom: 174px;
-    right: -5px;
-}
+.article1 {
+    img {
+        position: absolute;
+        width: 100%;
+        bottom: 174px;
+        right: -5px;
+    }
 
-.article1 p {
-    position: absolute;
-    font-family: helvetica;
-    margin: 0 auto;
-    padding: 20px 20px 20px 20px;
-    border: solid transparent;
-    width: 340px;
-    height: 140px;
-    left: 5px;
-    top: 630px;
+    p {
+        position: absolute;
+        font-family: helvetica;
+        margin: 0 auto;
+        padding: 20px 20px 20px 20px;
+        border: solid transparent;
+        width: 340px;
+        height: 140px;
+        left: 5px;
+        top: 630px;
+    }
 }
 
 .image img {
@@ -399,53 +395,116 @@ nav ul li a {
     position: absolute; 
 }
 
-.article2 img {
-    position: absolute;
-    width: 100%;
-    height: 130%;
-    right: -5px;
-    bottom: 186px;
-}
+.article2 {
+    img {
+        position: absolute;
+        width: 100%;
+        height: 130%;
+        right: -5px;
+        bottom: 186px;
+    }
 
-.article2 p {
-    position: absolute;
-    font-family: helvetica;
-    margin: 0 auto;
-    padding: 20px 20px 20px 20px;
-    border: solid transparent;
-    width: 340px;
-    height: 150px;
-    top: 627px;
-    right: 14px;
+    p {
+        position: absolute;
+        font-family: helvetica;
+        margin: 0 auto;
+        padding: 20px 20px 20px 20px;
+        border: solid transparent;
+        width: 340px;
+        height: 150px;
+        top: 627px;
+        right: 14px;
+    }
 }
 
 // Mobile View
 @media screen and (min-width: 320px) and (max-width: 480px) {
+    .navbar,
+    h1,
+    hr {
+        display: none;
+    }
+
+    .images .instagram a img {
+        right: 70px;
+        top: 15px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .images .email a img {
+        right: 100px;
+        top: 15px;
+        width: 50px;
+        height: 50px;
+    }
+
     // Main Page
     .square {
         display: inline-block;
         vertical-align: bottom;
     }
 
-    .center img {
-        top: 278px;
-        left: 50px;
+    .square .left {
+        position: relative;
+        left: 25px;
+
+        img {
+            top: -330px;
+            right: 100px
+        }
     }
 
-    .right img {
-        top: 530px;
-        right: 45px;
-    }
+    .square .center img {
+            top: 285px;
+            left: 76px;
+        }
 
-    .right {
-        right: 100px;
+    .square .right {
+        position: relative;
+        right: 25px;
         margin-bottom: 50px;
+
+        img {
+            top: -330px;
+            right: 50px;
+        } 
     }
 
-    .navbar,
-    h1,
-    hr {
-        display: none;
+    // Portfolio Page
+    .article3 p {
+        right: 27px;
+    }
+
+    .article4 p {
+        left: -13px;
+        top: 900px;
+    }
+
+    .article5 p {
+        float:none;
+        position: absolute;
+        top: 1210px;
+        left: -12px;
+    }
+
+    // Inspirations Page
+    .article6 p {
+        right: -83px;
+        top: 700px;
+        width: 110%;
+    }
+    
+    .article7 p {
+        width: 80%;
+        left: -2px;
+        top: 1050px;
+    }
+
+    .article8 p {
+        top: 1550px;
+        width: 110%;
+        left: -5px;
     }
 
     // About Page
@@ -457,28 +516,28 @@ nav ul li a {
         top: 48rem;
     }
 
-    // .article1 img {
-    //     left: 23px;
-    // }
-
     .article1 p {
-        left: 18px;
+        left: 1px;
     }
 
     .article2 p {
         top: 1350px;
-        left: 8px;
+        left: 1px;
     }
 
-    // Portfolio Page
-    .article4 p {
-        left: 0;
-        top: 900px;
+    // Hamburger Menu
+    .nav-menu-button {
+        width: 35px;
+        top: 100px;
     }
 
-    .article5 p {
-        float:none;
-        position: absolute;
-        top: 1210px;
+    .nav-menu-button-bar {
+        position: relative;
+        height: 4px;
+        margin: 5px 2px;
+        background-color: #333;
+        transition: 0.3s;
+        top: -75px;
+        left: 350px;
+      }
     }
-}
